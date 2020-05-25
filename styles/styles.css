@@ -148,18 +148,30 @@ h3 {
 
 /*    American Palette https://flatuicolors.com/palette/us*/
 
-    .post-category-swift {
-        background: #90AFC5;
-    }
-    .post-category-ios {
-        background: #336B87;
-    }
-    .post-category-tutorial {
-        background: #2A3132;
-    }
-    .post-category-other {
-        background: #763526;
-    }
+.post-category-swift {
+    background: #90AFC5;
+}
+.post-category-ios {
+    background: #336B87;
+}
+.post-category-tutorial {
+    background: #2A3132;
+}
+.post-category-other {
+    background: #763526;
+}
+.post-category-publish {
+    background: #d63031;
+}
+.post-category-uikit {
+    background: #6c5ce7;
+}
+.post-category-xcode {
+    background: #00b894;
+}
+.post-category-web {
+    background: #e17055;
+}
 
 .post-images {
     margin: 1em 0;
