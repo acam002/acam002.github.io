@@ -270,6 +270,10 @@ h3 {
     a {
         color: text;
     }
+    .pure-menu a:hover,
+    .pure-menu a:focus {
+        background-color: white;
+    }
 }
 
 .center {
