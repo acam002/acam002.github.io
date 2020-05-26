@@ -268,7 +268,7 @@ h3 {
 
 @media (prefers-color-scheme: light) {
     a, .pure-menu-link, .pure-menu-item, .pure-menu-heading {
-        color: text;
+        color: black;
     }
     .pure-menu a:hover,
     .pure-menu a:focus {
