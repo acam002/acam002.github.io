@@ -267,7 +267,7 @@ h3 {
 }
 
 @media (prefers-color-scheme: light) {
-    a {
+    a, .pure-menu-link, .pure-menu-item, .pure-menu-heading {
         color: text;
     }
     .pure-menu a:hover,
