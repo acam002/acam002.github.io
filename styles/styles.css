@@ -266,20 +266,47 @@ h3 {
         background-color: #303030;
         color: #e0e0e0;
     }
+    
+    table, td, th {
+        border: 1px solid white;
+    }
 }
 
 @media (prefers-color-scheme: light) {
     a, .pure-menu-link, .pure-menu-item, .pure-menu-heading {
         color: black;
     }
+    
     .pure-menu a:hover,
     .pure-menu a:focus {
         background-color: white;
+    }
+    
+    table td, th {
+        border: 0.5px solid black;
     }
 }
 
 .center {
   justify-content: center;
+}
+
+tr, td {
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:last-child {
+    border-bottom: none;
 }
 
 pre {
